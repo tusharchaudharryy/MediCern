@@ -11,7 +11,7 @@ const prescriptionSchema = mongoose.Schema({
     required: true,
   },
 
-  hospital: {
+  hospital: { 
     name: {
       type: String,
       required: true,

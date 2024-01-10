@@ -15,7 +15,7 @@ const adminSchema = mongoose.Schema({
     type: String,
   },
 
-  email: {
+  email: { 
     type: String,
   },
 

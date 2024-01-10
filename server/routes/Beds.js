@@ -11,7 +11,7 @@ const {
 } = require('../controllers/beds')
 
 router.route('/').get(getAllBeds)
-router.route('/single').post(checkAvailability)
+router.route('/single').post(checkAvailability) 
 router.route('/add').post(addBed)
 router.route('/:bedId').patch(updateBed)
 router.route('/discharge').put(dischargeBed)

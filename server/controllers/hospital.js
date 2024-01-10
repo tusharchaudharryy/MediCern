@@ -12,7 +12,7 @@ const getAll =async (req, res) => {
     try {
       let admins = await AdminModel.find();
       let patients = await PatientModel.find();
-      let ambulances = await AmbulanceModel.find();
+      let ambulances = await AmbulanceModel.find(); 
       let nurses = await NurseModel.find();
       let beds = await BedModel.find();
       let reports = await ReportModel.find();

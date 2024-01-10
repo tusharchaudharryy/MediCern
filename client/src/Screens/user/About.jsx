@@ -2,7 +2,7 @@ import React from 'react'
 import { FaAmbulance } from "react-icons/fa";
 import { MdPersonAdd } from "react-icons/md";
 import { FaBed } from "react-icons/fa";
-import { FaUserNurse } from "react-icons/fa";
+import { FaUserNurse } from "react-icons/fa"; 
 
 const About = () => {
   return (

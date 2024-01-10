@@ -9,7 +9,7 @@ const {
 } = require('../controllers/appointment')
 
 router.route('/').get(getAllAppointments)
-router.route('/create').post(createAppointment)
+router.route('/create').post(createAppointment) 
 router.route('/:appointmentId').patch(updateAppointment)
 router.route('/:appointmentId').delete(deleteAppointment)
 

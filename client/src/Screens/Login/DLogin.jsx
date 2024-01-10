@@ -10,7 +10,7 @@ import {
   NurseLogin,
 } from "../../Redux/auth/action";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import "react-toastify/dist/ReactToastify.css"; 
 import { Drawer } from "antd";
 import { admin2 } from '../../assets/index'
 

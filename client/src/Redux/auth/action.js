@@ -4,7 +4,7 @@ import axios from "axios";
 //login user
 export const NurseLogin = (data) => async (dispatch) => {
   try {
-    dispatch({ type: types.LOGIN_NURSE_REQUEST });
+    dispatch({ type: types.LOGIN_NURSE_REQUEST }); 
     const res = await axios.post(
       "https://hospital-management-system-backend.onrender.com/nurses/login",  
       data

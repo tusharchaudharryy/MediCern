@@ -13,4 +13,4 @@ router.route('/add').post(addPayment);
 router.route('/:paymentId').patch(updatePayment)
 router.route('/:paymentId').delete(deletePayment)
 
-module.exports = router;
+module.exports = router; 

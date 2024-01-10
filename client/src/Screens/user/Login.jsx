@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { authLogin, forgotPassword } from '../../Redux/user/auth/action'
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify"; 
 import "react-toastify/dist/ReactToastify.css";
 
 const notify = (text) => toast(text);

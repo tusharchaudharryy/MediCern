@@ -12,7 +12,7 @@ const appointmentSchema = mongoose.Schema({
   },
 
   patientName: {
-    type: String,
+    type: String, 
   },
 
   mobile: {

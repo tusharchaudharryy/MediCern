@@ -2,7 +2,7 @@ import React from 'react'
 import { medLogo } from '../../assets/index';
 import {Link} from 'react-router-dom'
 const Home = () => {
-    return (
+    return ( 
         <>
             <div id = "home" className='w-full mb-[80px] h-[600px] flex items-center justify-center '>
                 <div className='h-[80%] w-[80%] border flex bg-white rounded-2xl shadow-2xl'>

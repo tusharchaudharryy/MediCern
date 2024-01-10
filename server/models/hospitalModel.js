@@ -11,7 +11,7 @@ const hospitalSchema = mongoose.Schema({
 
   nurseNumbers: {
     type: Number,
-  },
+  }, 
 
   ambulanceNumbers: {
     type: Number,

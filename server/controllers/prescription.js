@@ -11,7 +11,7 @@ const getAllPrescriptions = async (req, res) => {
       res.status(400).send({ error: "Something went wrong" });
     }
   }
-
+ 
 const createPrescription = async (req, res) => {
     const payload = req.body;
     try {

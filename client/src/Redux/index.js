@@ -4,4 +4,4 @@ import dataReducer from "./Datas/reducer";
 export const rootReducer = combineReducers({
   auth: authReducer,
   data: dataReducer,
-});
+}); 

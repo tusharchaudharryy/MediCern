@@ -11,7 +11,7 @@ const {
 
 router.route('/').get(getAllNurses)
 router.route('/register').post(nurseRegister)
-router.route('/login').post(nurseLogin)
+router.route('/login').post(nurseLogin) 
 router.route('/:nurseId').patch(updateNurse)
 router.route('/:nurseId').delete(deleteNurse)
 

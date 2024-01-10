@@ -7,7 +7,7 @@ const reportSchema = mongoose.Schema({
   },
 
   docDepartment: {
-    type: String,
+    type: String, 
     required: true,
   },
 

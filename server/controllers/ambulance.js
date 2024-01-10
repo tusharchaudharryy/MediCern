@@ -6,7 +6,7 @@ const getAmbulance = async (req, res) => {
       const ambulances = await AmbulanceModel.find(query);
       res.status(200).send(ambulances);
     } catch (error) {
-      console.log(error);
+      console.log(error); 
       res.status(400).send({ error: "Something went wrong" });
     }
   }

@@ -5,7 +5,7 @@ const initialState = {
   userLogout: { message: "" },
   data: {
     isAuthenticated: !!TOKEN,
-    token: TOKEN,
+    token: TOKEN, 
     user: null,
   },
 };

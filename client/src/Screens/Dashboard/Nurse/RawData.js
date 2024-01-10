@@ -4,7 +4,7 @@ export const CommonProblem = [
       value: "Fever",
     },
     {
-      title: "Headaches",
+      title: "Headaches", 
       value: "Headaches",
     },
     {

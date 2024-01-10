@@ -4,7 +4,7 @@ const Faq = () => {
   return (
     <div id="faq" className='h-auto  pt-10'>
       <div className='w-full flex items-center justify-center'>
-      <h1 className='text-[50px] font-bold'>FAQ</h1>
+      <h1 className='text-[50px] font-bold'>FAQ</h1> 
       </div>
       <div className='grid grid-cols1 grid-rows-4 gap-10 mt-10 pb-20'>
         <div className='mx-20 min-h-[100px] rounded-2xl shadow-2xl bg-white px-10 py-5'>

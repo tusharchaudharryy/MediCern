@@ -10,7 +10,7 @@ const {
     updateDoctor,
     deleteDoctor
   } = require('../controllers/doctors')
-
+  
 router.route('/').get(getDoctors)
 router.route('/register').post(doctorRegister)
 router.route('/login').post(doctorLogin)

@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Navigate } from "react-router-dom";
 const notify = (text) => toast(text);
 
-const AddDoctor = () => {
+const AddDoctor = () => { 
 
   const { data } = useSelector((store) => store.auth);
 

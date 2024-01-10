@@ -9,7 +9,7 @@ import { Navigate } from "react-router-dom";
 const notify = (text) => toast(text);
 
 
-const AddNurse = () => {
+const AddNurse = () => { 
 
     const { data } = useSelector((store) => store.auth);
 

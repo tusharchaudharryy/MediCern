@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { GetAllReports } from '../../../Redux/Datas/action'
 import Sidebar from '../Common/Sidebar'
 
-const Reports = () => { 
+const Reports = () => {  
     const dispatch = useDispatch();
   const [Report, setReport] = useState();
   useEffect(() => {

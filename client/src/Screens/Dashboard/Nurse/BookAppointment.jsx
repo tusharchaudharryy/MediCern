@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { CommonProblem } from './RawData'
 import { useDispatch } from "react-redux";
-import { AddPatients, CreateBooking } from '../../../Redux/Datas/action'
+import { AddPatients, CreateBooking } from '../../../Redux/Datas/action' 
 import Sidebar from "../Common/Sidebar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

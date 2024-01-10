@@ -7,7 +7,7 @@ const {
     getAdmin,
     adminRegister,
     adminLogin,
-    updateAdmin,
+    updateAdmin, 
     deleteAdmin,
     sendEmail,
     forgotPassword

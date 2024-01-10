@@ -13,4 +13,4 @@ router.route('/create').post(createPrescription)
 router.route('/:prescriptionId').patch(updatePrescription)
 router.route('/:prescriptionId').delete(deletePrescription)
 
-module.exports = router
+module.exports = router 

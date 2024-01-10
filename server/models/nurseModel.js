@@ -10,7 +10,7 @@ const nurseSchema = mongoose.Schema({
     type: Number,
     required: true,
   },
-
+ 
   nurseName: {
     type: String,
   },

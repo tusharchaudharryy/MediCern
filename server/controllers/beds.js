@@ -4,7 +4,7 @@ const getAllBeds = async (req, res) => {
     try {
       const beds = await BedModel.find().populate([
         {
-          path: "patientID",
+          path: "patientID", 
           populate: {
             path: "docID",
           },

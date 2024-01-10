@@ -5,7 +5,7 @@ import Sidebar from '../Common/Sidebar'
 import { Button, message, Modal } from "antd";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
-import { admin2 } from '../../../assets/index'
+import { admin2 } from '../../../assets/index' 
 import { AiFillCalendar, AiFillEdit } from "react-icons/ai";
 
 const DoctorProfile = () => {

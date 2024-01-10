@@ -11,7 +11,7 @@ const authenticate = (req, res, next) => {
       next();
     } else {
       res.send("You cannot edit this token.");
-    }
+    } 
   } else {
     res.send("Inadequate permissions, Please login first.");
   }

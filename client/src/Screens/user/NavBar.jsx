@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import { Link } from 'react-scroll'
 import { Link as Link2 } from 'react-router-dom';
 import { useDispatch, useSelector } from "react-redux";

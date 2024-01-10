@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { AdminRegister, SendPassword } from '../../../Redux/auth/action'
 import Sidebar from '../Common/Sidebar'
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify"; 
 import "react-toastify/dist/ReactToastify.css";
 import { Navigate } from "react-router-dom";
 const notify = (text) => toast(text);

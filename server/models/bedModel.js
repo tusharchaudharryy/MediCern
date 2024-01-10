@@ -6,7 +6,7 @@ const bedSchema = mongoose.Schema({
     required: true,
   },
 
-  roomNumber: {
+  roomNumber: { 
     type: Number,
     required: true,
   },

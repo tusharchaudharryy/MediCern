@@ -7,4 +7,4 @@ const {
 
 router.route('/').get(getAll)
 
-module.exports = router
+module.exports = router 

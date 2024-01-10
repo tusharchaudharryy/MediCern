@@ -12,7 +12,7 @@ const getAmbulance = async (req, res) => {
   }
 
 const addAmbulance = async (req, res) => {
-    const payload = req.body;
+    const payload = req.body; 
     try {
       const ambulance = new AmbulanceModel(payload);
       await ambulance.save();

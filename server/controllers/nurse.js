@@ -1,6 +1,6 @@
 const express = require("express");
 const { NurseModel } = require("../models/nurseModel");
-require("dotenv").config();
+require("dotenv").config(); 
 const jwt = require("jsonwebtoken");
 
 const getAllNurses = async (req, res) => {

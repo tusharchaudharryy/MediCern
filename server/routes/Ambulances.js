@@ -8,7 +8,7 @@ const {
     deleteAmbulance
   } = require('../controllers/ambulance')
 
-router.route('/').get(getAmbulance)
+router.route('/').get(getAmbulance) 
 router.route('/add').post(addAmbulance)
 router.route('/:ambulanceId').patch(updateAmbulance)
 router.route('/:ambulanceId').delete(deleteAmbulance)

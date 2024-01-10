@@ -5,7 +5,7 @@ const ambulanceSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-
+ 
   charges: {
     type: Number,
     required: true,

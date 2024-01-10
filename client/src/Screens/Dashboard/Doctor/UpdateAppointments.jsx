@@ -5,7 +5,7 @@ import { Navigate } from "react-router-dom";
 import {
     DeleteAppointment,
     GetAllAppointment,
-} from '../../../Redux/Datas/action' 
+} from '../../../Redux/Datas/action'  
 import Sidebar from "../Common/Sidebar";
 
 const UpdateAppointments = () => {

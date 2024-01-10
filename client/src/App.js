@@ -9,7 +9,7 @@ import AddBeds from './Screens/Dashboard/Admin/AddBeds';
 import AddAmbulance from './Screens/Dashboard/Admin/AddAmbulance';
 import Availability from './Screens/Dashboard/Admin/Availability';
 import Reports from './Screens/Dashboard/Doctor/Reports';
-import UpdateAppointments from './Screens/Dashboard/Doctor/UpdateAppointments';
+import UpdateAppointments from './Screens/Dashboard/Doctor/UpdateAppointments'; 
 import CreateReport from './Screens/Dashboard/Doctor/CreateReports';
 import DoctorProfile from './Screens/Dashboard/Doctor/DoctorProfile';
 import AddPatient from './Screens/Dashboard/Nurse/AddPatient';

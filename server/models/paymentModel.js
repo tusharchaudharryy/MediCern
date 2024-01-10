@@ -8,7 +8,7 @@ const paymentSchema = mongoose.Schema({
   },
 
   paid: {
-    type: Boolean,
+    type: Boolean, 
     default: false,
   },
 });

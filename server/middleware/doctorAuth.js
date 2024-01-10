@@ -8,7 +8,7 @@ const authenticate = (req, res, next) => {
     if (decoded) {
       const doctorID = decoded.doctorID;
       req.body.doctorID = doctorID;
-      next();
+      next(); 
     } else {
       res.send("You cannot edit this token.");
     }

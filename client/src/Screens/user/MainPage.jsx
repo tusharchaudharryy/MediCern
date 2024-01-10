@@ -6,7 +6,7 @@ import Services from './Services'
 import Faq from './Faq'
 const MainPage = () => {
     return (
-        <>
+        <> 
 
             <div>
                     <NavBar />

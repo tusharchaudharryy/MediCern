@@ -6,7 +6,7 @@ const getAllAppointments = async (req, res) => {
       const appointments = await AppointmentModel.find(query);
       res.status(200).send(appointments);
     } catch (error) {
-      console.log(error);
+      console.log(error); 
       res.status(400).send({ error: "Something went wrong" });
     }
   }

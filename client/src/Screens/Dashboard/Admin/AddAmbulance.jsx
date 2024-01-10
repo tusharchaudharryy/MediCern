@@ -7,7 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Navigate } from "react-router-dom";
 const notify = (text) => toast(text);
-
+ 
 
 const AddAmbulance = () => {
 

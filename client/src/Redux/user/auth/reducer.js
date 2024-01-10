@@ -9,7 +9,7 @@ const initialState = {
     token: TOKEN,
     user: null,
     report: [],
-  },
+  }, 
 };
 
 export default function authReducer(state = initialState, { type, payload }) {

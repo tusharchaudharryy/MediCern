@@ -6,7 +6,7 @@ const getDoctors = async (req, res) => {
     try {
       const doctors = await DoctorModel.find();
       res.status(200).send(doctors);
-    } catch (error) {
+    } catch (error) { 
       console.log(error);
       res.status(400).send({ error: "Something went wrong" });
     }

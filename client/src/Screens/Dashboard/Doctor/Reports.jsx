@@ -6,7 +6,7 @@ import Sidebar from '../Common/Sidebar'
 
 const Reports = () => {  
     const dispatch = useDispatch();
-  const [Report, setReport] = useState();
+  const [Report, setReport] = useState(); 
   useEffect(() => {
     dispatch(GetAllReports()).then((res) => {
       setReport(res);

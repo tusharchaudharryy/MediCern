@@ -5,7 +5,7 @@ import axios from "axios";
 export const authLogin = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.LOGIN_USER_REQUEST });
-    const res = await axios.post(
+    const res = await axios.post( 
       "http://localhost:5000/patients/login",
       data
     );

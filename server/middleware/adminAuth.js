@@ -6,7 +6,7 @@ const authenticate = (req, res, next) => {
   if (token) {
     const decoded = jwt.verify(token, process.env.key);
     if (decoded) {
-      const adminID = decoded.adminID;
+      const adminID = decoded.adminID; 
       req.body.adminID = adminID;
       next();
     } else {

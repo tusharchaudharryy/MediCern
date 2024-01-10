@@ -11,7 +11,7 @@ const doctorSchema = mongoose.Schema({
     required: true,
   },
 
-  docName: {
+  docName: { 
     type: String,
   },
 

@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { AddBed } from '../../../Redux/Datas/action'
 import Sidebar from '../Common/Sidebar'
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import "react-toastify/dist/ReactToastify.css"; 
 import { Navigate } from "react-router-dom";
 const notify = (text) => toast(text);
 

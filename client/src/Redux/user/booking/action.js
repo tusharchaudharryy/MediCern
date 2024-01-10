@@ -5,7 +5,7 @@ import axios from "axios";
 export const createBooking = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.CREATE_BOOKING_REQUEST });
-    const res = await axios.post(
+    const res = await axios.post( 
       `http://localhost:5000/appointments/create`,
       data
     );

@@ -3,7 +3,7 @@ require("dotenv").config();
 const jwt = require("jsonwebtoken");
 const nodemailer = require("nodemailer");
 const { NurseModel } = require("../models/nurseModel");
-const { DoctorModel } = require("../models/doctorModel");
+const { DoctorModel } = require("../models/doctorModel"); 
 const { PatientModel } = require("../models/patientModel");
 
 

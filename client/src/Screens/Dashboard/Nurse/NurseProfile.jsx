@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { GetDoctorDetails } from '../../../Redux/Datas/action'
 import { UpdateDoctor, UpdateNurse } from '../../../Redux/auth/action'
-import Sidebar from '../Common/Sidebar'
+import Sidebar from '../Common/Sidebar' 
 import { Button, message, Modal } from "antd";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";

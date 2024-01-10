@@ -10,7 +10,7 @@ const getPayments = async (req, res) => {
       console.log(error);
       res.status(400).send({ error: "Something went wrong" });
     }
-  }
+  } 
 
 const addPayment = async (req, res) => {
     const payload = req.body;

@@ -6,7 +6,7 @@ export const CreateReport = (data) => async (dispatch) => {
   try {
     dispatch({ type: types.CREATE_REPORT_REQUEST });
     const res = await axios.post(
-      "https://hospital-management-system-backend.onrender.com/reports/create",
+      "https://hospital-management-system-backend.onrender.com/reports/create", 
       data
     );
     console.log(res);

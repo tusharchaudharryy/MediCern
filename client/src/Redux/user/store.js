@@ -7,7 +7,7 @@ import {
   import { rootReducer } from "./index.js";
   
   function saveToLocalStorage(store) {
-    try {
+    try { 
       const serializedStore = JSON.stringify(store);
       window.localStorage.setItem("store", serializedStore);
     } catch (e) {

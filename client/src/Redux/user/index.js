@@ -4,4 +4,4 @@ import bookingReducer from "./booking/reducer";
 export const rootReducer = combineReducers({
   auth: authReducer,
   booking: bookingReducer,
-});
+}); 

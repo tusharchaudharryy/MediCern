@@ -7,7 +7,7 @@ import Sidebar from '../Common/Sidebar'
 import { Space, Table, Tag } from 'antd';
 
 
-
+ 
 const Availability = () => {
 
     const { data } = useSelector((store) => store.auth);

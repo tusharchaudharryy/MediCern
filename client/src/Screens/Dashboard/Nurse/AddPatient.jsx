@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import {
-    AddPatients,
+    AddPatients, 
     CreateBeds,
     EditSingleBed,
     GetSingleBed,

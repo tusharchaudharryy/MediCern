@@ -11,7 +11,7 @@ const doctorRouter = require("./routes/Doctors");
 const hospitalRouter = require("./routes/Hospitals");
 const nurseRouter = require("./routes/Nurses"); 
 const patientRouter = require("./routes/Patients");
-const paymentRouter = require("./routes/Payments");
+const paymentRouter = require("./routes/Payments"); 
 const prescriptionRouter = require("./routes/Prescriptions");
 const reportRouter = require("./routes/Reports");
 

@@ -14,7 +14,7 @@ const getAllPatients = async (req, res) => {
     }
   }
 
-const patientRegister = async (req, res) => {
+const patientRegister = async (req, res) => { 
     // console.log("SERVER : " ,req.body)
     const { email } = req.body;
     try {

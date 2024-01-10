@@ -3,4 +3,4 @@ require("dotenv").config();
 
 const dbConnect = mongoose.connect(process.env.MONGO_URI);
 
-module.exports = { dbConnect };
+module.exports = { dbConnect }; 

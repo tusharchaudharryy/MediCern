@@ -11,7 +11,7 @@ const {
 
 router.route('/').get(getAllPatients)
 router.route('/register').post(patientRegister)
-router.route('/login').post(patientLogin)
+router.route('/login').post(patientLogin) 
 router.route('/:patientId').patch(updatePatient)
 router.route('/:patientId').delete(deletePatient)
 
